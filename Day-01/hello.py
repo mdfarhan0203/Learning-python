@@ -18,11 +18,11 @@ print(age)
 
 
 # input  and output
-name = input("Enter your name : ")
-while name == "":
-    name = input("Enter your name : ")
+# name = input("Enter your name : ")
+# while name == "":
+#     name = input("Enter your name : ")
 
-print(name)
+# print(name)
 
 
 
@@ -132,3 +132,26 @@ print(even)
 nums = [1, 2, 3, 4]
 doubled = list(map(lambda x: x*2, nums))     # nums.map(x => x*2)
 evens = list(filter(lambda x: x%2==0, nums)) # nums.filter(x => x%2===0)
+
+
+
+
+
+# String Method 
+str = "Hello world"
+print(str.upper())  # upper case 
+
+
+print(str.split(" "))
+
+
+
+
+# loop
+for x in range(10,20,2):
+    print(x)
+
+
+is_completed = False
+while is_completed:
+    print(f"hello brother")
