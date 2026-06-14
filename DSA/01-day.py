@@ -16,7 +16,7 @@ def is_palindrome(x):
 
 
 
-print(is_palindrome("radar"))   # True
+print(is_palindrome("radar"))     # True
 print(is_palindrome("Deloitte"))  # Output: False
 
 
